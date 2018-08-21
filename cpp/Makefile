@@ -52,7 +52,7 @@ CXXFLAGS += -O1
 # ---- Targets to build ----
 
 LIBSRC = BitBuffer QrCode QrSegment
-MAINS = QrCodeGeneratorDemo QrCodeGeneratorWorker
+MAINS = encode_armor QrCodeGeneratorDemo QrCodeGeneratorWorker
 
 # Build all binaries
 all: $(MAINS)
